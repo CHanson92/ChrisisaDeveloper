@@ -24,12 +24,24 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    // Bulma
+    'bulma',
+    // CSS file
+    '@/assets/css/main.css',
+    // SCSS file
+    '@/assets/scss/main.scss',
+    // FontAwesome
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ],
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    // FontAwesome
+    '~/plugins/fontawesome.js'
+  ],
 
   /*
    ** Nuxt.js modules
@@ -68,7 +80,10 @@ export default {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/
+          exclude: /(node_modules)/,
+          options: {
+            fix: true
+          }
         })
       }
     }
