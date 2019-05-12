@@ -1,7 +1,6 @@
 <template>
-  <div class="card">
-    <h1 class="title">Portfolio</h1>
-    <div class="content">Portfolio Content</div>
+  <div class="section card">
+    <div class="content"></div>
   </div>
 </template>
 

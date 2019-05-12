@@ -27,7 +27,7 @@
         </li>
       </ul>
     </div>
-    <div><component :is="selected"></component></div>
+    <section><component :is="selected"></component></section>
   </section>
 </template>
 

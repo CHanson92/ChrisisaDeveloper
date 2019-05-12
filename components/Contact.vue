@@ -1,7 +1,11 @@
 <template>
-  <div class="card">
-    <h1 class="title">Contact Me</h1>
-    <div class="content">Contact Content</div>
+  <div class="section card">
+    <div class="content has-text-centered">
+      <p>
+        For any business enquiries, please contact me at
+        chrisdhanson92@gmail.com
+      </p>
+    </div>
   </div>
 </template>
 
