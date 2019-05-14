@@ -1,19 +1,82 @@
-iframe {
-    display: block;       /* iframes are inline by default */
-    text-align: center;
-    border: none;
-    width: 100%;
-    height: 315vh;
+body {
+  background: linear-gradient(to bottom, #5C80BC , #FF9F1C);
+}
+
+.is-size-1 {
+  text-shadow: 1px 1px #F9F8F8;
+}
+
+.is-size-1, .is-size-4 {
+  color: #FFBF69;
 }
 
 .tabs {
-    margin-bottom: 0 !important;
+  background: #F9F8F8;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: #F9F8F8;
+  a:hover {
+    color: #F9F8F8;
+  }
+}
+
+.cvlink {
+  color: #FF9F1C;
+}
+
+.tabs {
+  margin-bottom: 0 !important;
 }
 
 .card {
-    margin-top: 0;
+  margin-top: 0;
+  background: transparent;
+  color: #F9F8F8;
 }
 
 img {
-    margin-right: 0.25em;
+  margin-right: 0.25em;
+}
+
+.content {
+  .title {
+    color: #F9F8F8;
+    a {
+      color: #F9F8F8;
+    }
+  }
+}
+
+.columns {
+  margin-top: 1em;
+  .title, .subtitle {
+    color: #F9F8F8;
+  }
+}
+
+.column {
+  height: 31em;
+  img {
+    height: 15em;
+  }
+}
+
+.action-shots {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  img {
+    height: 20em;
+    width: auto;
+    margin-bottom: 1em;
+  }
+}
+
+.button {
+  background: transparent;
+  color: #F9F8F8;
 }

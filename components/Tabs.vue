@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="tabsection section animated fadeInUp">
     <div class="tabs is-boxed is-fullwidth is-large">
       <ul>
         <li
@@ -20,37 +20,43 @@
             >Portfolio
           </a>
         </li>
-        <li
-          :class="[selected === 'Contact' ? 'is-active' : '']"
-          @click="selected = tabs[2]"
-        >
-          <a>
-            <span class="icon"> <font-awesome-icon icon="address-card" /> </span
-            >Contact me
-          </a>
-        </li>
       </ul>
     </div>
-    <section><component :is="selected"></component></section>
+    <section>
+      <transition name="fade">
+        <component :is="selected"></component>
+      </transition>
+    </section>
   </section>
 </template>
 
 <script>
 import About from './About.vue'
 import Portfolio from './Portfolio.vue'
-import Contact from './Contact.vue'
 export default {
   name: 'Tabs',
   components: {
     About,
-    Portfolio,
-    Contact
+    Portfolio
   },
   data: function() {
     return {
-      tabs: ['About', 'Portfolio', 'Contact'],
+      tabs: ['About', 'Portfolio'],
       selected: 'About'
     }
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.fade-enter-active {
+  transition: opacity 1.5s;
+}
+.fade-leave-active {
+  opacity: 0 1.5;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

@@ -32,7 +32,9 @@ export default {
     // SCSS file
     '@/assets/scss/main.scss',
     // FontAwesome
-    '@fortawesome/fontawesome-svg-core/styles.css'
+    '@fortawesome/fontawesome-svg-core/styles.css',
+    // Animate.css
+    '@/assets/css/animate.css'
   ],
 
   /*
@@ -49,7 +51,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
+    // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma'
   ],
   /*

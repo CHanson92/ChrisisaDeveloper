@@ -1,17 +1,18 @@
 <template>
   <section>
-    <section class="hero">
+    <section class="hero animated slideInRight">
       <div class="hero-body">
-        <div class="container">
-          <h1 class="title">chrisisadeveloper</h1>
-          <h2 class="subtitle">My developer website</h2>
-        </div>
+        <h1 class="title is-size-1">Chris is a developer</h1>
+        <h2 class="subtitle is-size-4">Welcome to my website!</h2>
       </div>
     </section>
-    <div class="container">
+    <div>
       <tabs />
     </div>
-    <footer>Made by Chris Hanson</footer>
+    <footer class="section">
+      <p class="has-text-left">Can we have a break?</p>
+      <a class href="mailto:chrisdhanson92@gmail.com">Email me</a>
+    </footer>
   </section>
 </template>
 
