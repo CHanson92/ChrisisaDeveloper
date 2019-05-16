@@ -1,6 +1,6 @@
 <template>
-  <div class="section card">
-    <div class="content has-text-centered">
+  <div class="section card animated slideInRight">
+    <div class="container content has-text-centered">
       I am a passionate junior developer with a diploma in Web &amp; App
       Development from RED Academy, I have a degree in Mathematics from the
       University of Hertfordshire and a finance background in the medical device
@@ -19,20 +19,27 @@
       <br />
       <br />
       You can see my CV for more details
-      <a class="cvlink" href="https://1drv.ms/b/s!Am-S6R_uzcxflVCy7ko7EAqrZK4C"
+      <a
+        class="link"
+        href="https://1drv.ms/b/s!Am-S6R_uzcxflVCy7ko7EAqrZK4C"
+        target="_blank"
         >here</a
-      >. For any other enquiries, please email me by clicking the link in the
-      footer.
+      >. For any other enquiries, please
+      <a class="link" href="mailto:chrisdhanson92@gmail.com" target="_blank">
+        email me</a
+      >.
       <br />
       <br />
       In my spare time I am a technology and comics geek, I have a love for
       sports in particular martial arts, motorsport &amp; gymnastics but always
       excited to try out new sports. Below are a couple of action pictures!
       <br />
-      <div class="action-shots">
-        <img class="image" src="@/assets/images/Gymnastics.jpg" />
-        <img class="image" src="@/assets/images/Kickboxing.jpg" />
-      </div>
+      <a
+        class="link button"
+        href="mailto:chrisdhanson92@gmail.com"
+        target="_blank"
+        >Get in touch</a
+      >
     </div>
   </div>
 </template>

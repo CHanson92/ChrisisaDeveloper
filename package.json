@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@bazzite/nuxt-optimized-images": "^0.1.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/vue-fontawesome": "^0.1.6",
@@ -21,6 +22,8 @@
     "@nuxtjs/bulma": "^1.2.1",
     "@nuxtjs/router": "^1.3.2",
     "cross-env": "^5.2.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^7.0.0",
     "nuxt": "^2.4.0"
   },
   "devDependencies": {

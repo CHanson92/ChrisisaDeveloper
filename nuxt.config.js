@@ -1,7 +1,7 @@
 import pkg from './package'
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
 
   /*
    ** Headers of the page
@@ -52,8 +52,27 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma'
+    '@nuxtjs/bulma',
+    // Nuxt Optimized Images
+    '@bazzite/nuxt-optimized-images'
   ],
+  optimizedImages: {
+    inlineImageLimit: 1000,
+    imagesName: ({ isDev }) =>
+      isDev ? '[path][name][hash:optimized].[ext]' : 'img/[hash:7].[ext]',
+    responsiveImagesName: ({ isDev }) =>
+      isDev
+        ? '[path][name]--[width][hash:optimized].[ext]'
+        : 'img/[hash:7]-[width].[ext]',
+    handleImages: ['jpeg', 'png'],
+    optimizeImages: true,
+    optimizeImagesInDev: true,
+    defaultImageLoader: 'img-loader',
+    mozjpeg: {
+      quality: 80
+    },
+    pngquant: true
+  },
   /*
    ** Axios module configuration
    */
