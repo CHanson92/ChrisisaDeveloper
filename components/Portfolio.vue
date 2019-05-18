@@ -11,10 +11,8 @@
           class="aloha column has-text-centered is-one-third-desktop is-half-tablet"
         >
           <h4 class="title has-text-weight-light">Aloha Homepage</h4>
-          <img class="image" src="@/assets/images/Aloha-Homepage.png" />
-          <p>
-            A landing page for Aloha Apparel, a clothing brand.
-          </p>
+          <img class="image" src="../static/images/Aloha-Homepage.png" />
+          <p>A landing page for Aloha Apparel, a clothing brand.</p>
           <p>HTML, CSS, SASS, JavaScript, jQuery</p>
           <a
             href="https://chanson92.github.io/Project-1-Aloha-Homepage/"
@@ -29,7 +27,7 @@
           >
             <img
               class="image is-32x32"
-              src="../assets/images/GitHub-Mark-120px-plus.png"
+              src="../static/images/GitHub-Mark-120px-plus.png"
             />GitHub Repo
           </a>
         </div>
@@ -37,10 +35,8 @@
           class="instanews column has-text-centered is-one-third-desktop is-half-tablet"
         >
           <h4 class="title has-text-weight-light">Instanews</h4>
-          <img class="image" src="@/assets/images/Instanews.png" />
-          <p>
-            An Instagram style news feed using the New York Times API.
-          </p>
+          <img class="image" src="../static/images/Instanews.png" />
+          <p>An Instagram style news feed using the New York Times API.</p>
           <p>HTML, CSS, SASS, JavaScript, jQuery</p>
           <a
             href="https://chanson92.github.io/Project-2-Instanews/"
@@ -55,7 +51,7 @@
           >
             <img
               class="image is-32x32"
-              src="../assets/images/GitHub-Mark-120px-plus.png"
+              src="../static/images/GitHub-Mark-120px-plus.png"
             />GitHub Repo
           </a>
         </div>
@@ -63,7 +59,7 @@
           class="beer-api column has-text-centered is-one-third-desktop is-half-tablet"
         >
           <h4 class="title has-text-weight-light">Beer API</h4>
-          <img class="image" src="@/assets/images/Beer-API.png" />
+          <img class="image" src="../static/images/Beer-API.png" />
           <p>
             A website where you can see all beers and a random beer using the
             PunkDog API.
@@ -82,7 +78,7 @@
           >
             <img
               class="image is-32x32"
-              src="../assets/images/GitHub-Mark-120px-plus.png"
+              src="../static/images/GitHub-Mark-120px-plus.png"
             />GitHub Repo
           </a>
         </div>
@@ -90,10 +86,8 @@
           class="quotes-on-dev column has-text-centered is-one-third-desktop is-half-tablet"
         >
           <h4 class="title has-text-weight-light">Quotes on Dev</h4>
-          <img class="image" src="@/assets/images/Quotes-On-Dev.png" />
-          <p>
-            A website that generates random coding quotes on refresh.
-          </p>
+          <img class="image" src="../static/images/Quotes-On-Dev.png" />
+          <p>A website that generates random coding quotes on refresh.</p>
           <p>WordPress, PHP, JavaScript, jQuery, SASS</p>
           <a
             href="https://github.com/CHanson92/Project-5-Quotes-on-Dev"
@@ -102,7 +96,7 @@
           >
             <img
               class="image is-32x32"
-              src="../assets/images/GitHub-Mark-120px-plus.png"
+              src="../static/images/GitHub-Mark-120px-plus.png"
             />GitHub Repo
           </a>
         </div>
@@ -110,7 +104,7 @@
           class="fmma column has-text-centered is-one-third-desktop is-half-tablet"
         >
           <h4 class="title has-text-weight-light">FMMA</h4>
-          <img class="image" src="@/assets/images/FMMA.png" />
+          <img class="image" src="../static/images/FMMA.png" />
           <p>
             A single page application that can add &amp; find martial arts gyms.
           </p>
@@ -125,7 +119,7 @@
           >
             <img
               class="image is-32x32"
-              src="../assets/images/GitHub-Mark-120px-plus.png"
+              src="../static/images/GitHub-Mark-120px-plus.png"
             />GitHub Repo
           </a>
         </div>
@@ -133,7 +127,7 @@
           class="bakesale column has-text-centered is-one-third-desktop is-half-tablet"
         >
           <h4 class="title has-text-weight-light">Bakesale</h4>
-          <img class="image" src="@/assets/images/Bakesale.png" />
+          <img class="image" src="../static/images/Bakesale.png" />
           <p>
             A e-commerce shopping app that brings in new offers through an API.
           </p>
@@ -145,7 +139,7 @@
           >
             <img
               class="image is-32x32"
-              src="../assets/images/GitHub-Mark-120px-plus.png"
+              src="../static/images/GitHub-Mark-120px-plus.png"
             />GitHub Repo
           </a>
         </div>
@@ -153,7 +147,7 @@
           class="clothing-store column has-text-centered is-one-third-desktop is-half-tablet"
         >
           <h4 class="title has-text-weight-light">Clothing Store</h4>
-          <img class="image" src="@/assets/images/Clothing-Store.png" />
+          <img class="image" src="../static/images/Clothing-Store.png" />
           <p>
             A basic shopping website that can be filtered by price and has a
             checkout section.
@@ -166,7 +160,7 @@
           >
             <img
               class="image is-32x32"
-              src="../assets/images/GitHub-Mark-120px-plus.png"
+              src="../static/images/GitHub-Mark-120px-plus.png"
             />GitHub Repo
           </a>
         </div>
@@ -174,14 +168,14 @@
           class="chrisisadeveloper column has-text-centered is-one-third-desktop is-half-tablet"
         >
           <h4 class="title has-text-weight-light">Chris is a Developer</h4>
-          <img class="image" src="@/assets/images/Quotes-On-Dev.png" />
+          <img class="image" src="../static/images/Chrisisadeveloper.png" />
           <p>The website you're currently on, my professional website.</p>
           <p>Vue.js, Nuxt.js, SASS, Bulma</p>
           <a href class="button" target="_blank">Website</a>
           <a href class="button" target="_blank">
             <img
               class="image is-32x32"
-              src="../assets/images/GitHub-Mark-120px-plus.png"
+              src="../static/images/GitHub-Mark-120px-plus.png"
             />GitHub Repo
           </a>
         </div>
@@ -189,7 +183,7 @@
           class="buzz column has-text-centered is-one-third-desktop is-half-tablet"
         >
           <h4 class="title has-text-weight-light">Buzz</h4>
-          <img class="image" src="@/assets/images/Buzz.png" />
+          <img class="image" src="../static/images/Buzz.png" />
           <p>
             A group project I was involved in, a platform that connects tattoo
             artists.
@@ -208,7 +202,7 @@
           >
             <img
               class="image is-32x32"
-              src="../assets/images/GitHub-Mark-120px-plus.png"
+              src="../static/images/GitHub-Mark-120px-plus.png"
             />GitHub Repo
           </a>
         </div>
