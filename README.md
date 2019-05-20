@@ -1,6 +1,14 @@
 # chrisisadeveloper
 
-> My developer website
+> This is my professional website to showcase my portfolio.
+
+# Languages used
+
+> Nuxt.js
+> Vue.js
+> SASS
+> Bulma
+> Animate.css
 
 ## Build Setup
 
