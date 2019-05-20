@@ -4,15 +4,15 @@
 
 # Languages used
 
-> Nuxt.js
+<code>Nuxt.js</code>
 <br>
-> Vue.js
+<code>Vue.js</code>
 <br>
-> SASS
+<code>SASS</code>
 <br>
-> Bulma
+<code>Bulma</code>
 <br>
-> Animate.css
+<code>Animate.css</code>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dc0af6e6-d044-42b4-909e-aa709c5fd101/deploy-status)](https://app.netlify.com/sites/chrisisadeveloper/deploys)
 
