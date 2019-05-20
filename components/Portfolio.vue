@@ -13,7 +13,9 @@
           <h4 class="title has-text-weight-light">Aloha Homepage</h4>
           <img class="image" src="../static/images/Aloha-Homepage.png" />
           <p>A landing page for Aloha Apparel, a clothing brand.</p>
-          <p>HTML, CSS, SASS, JavaScript, jQuery</p>
+          <p>
+            HTML, CSS, SASS, JavaScript, jQuery
+          </p>
           <a
             href="https://chanson92.github.io/Project-1-Aloha-Homepage/"
             class="button"
