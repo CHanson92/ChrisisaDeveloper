@@ -173,8 +173,11 @@
           <img class="image" src="../static/images/Chrisisadeveloper.png" />
           <p>The website you're currently on, my professional website.</p>
           <p>Vue.js, Nuxt.js, SASS, Bulma</p>
-          <a href class="button" target="_blank">Website</a>
-          <a href class="button" target="_blank">
+          <a
+            href="https://github.com/CHanson92/ChrisisaDeveloper"
+            class="button"
+            target="_blank"
+          >
             <img
               class="image is-32x32"
               src="../static/images/GitHub-Mark-120px-plus.png"
