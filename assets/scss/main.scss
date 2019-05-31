@@ -69,7 +69,26 @@ img {
 }
 
 .column {
-  height: 31em;
+  height: 63vh;
+  position: relative;
+}
+
+.column::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.column:hover::before {
+  opacity: 1;
 }
 
 .button {
