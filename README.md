@@ -11,8 +11,6 @@
 <code>SASS</code>
 <br>
 <code>Bulma</code>
-<br>
-<code>Animate.css</code>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dc0af6e6-d044-42b4-909e-aa709c5fd101/deploy-status)](https://app.netlify.com/sites/chrisisadeveloper/deploys)
 
