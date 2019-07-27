@@ -32,9 +32,7 @@ export default {
     // SCSS file
     '@/assets/scss/main.scss',
     // FontAwesome
-    '@fortawesome/fontawesome-svg-core/styles.css',
-    // Animate.css
-    '@/assets/css/animate.css'
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   /*

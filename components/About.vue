@@ -1,5 +1,5 @@
 <template>
-  <div class="section card animated slideInRight">
+  <div class="section card">
     <div class="container content has-text-centered">
       When I started coding, I found it incredibly satisfying as I solved
       problems. I would immediately begin to think of new ways to simplify what

@@ -1,6 +1,6 @@
 <template>
   <section class="tabsection section">
-    <div class="tabs is-boxed is-fullwidth is-large animated slideInLeft">
+    <div class="tabs is-boxed is-fullwidth is-large">
       <ul>
         <li
           :class="[selected === 'Portfolio' ? 'is-active' : '']"
@@ -23,14 +23,33 @@
       </ul>
     </div>
     <section>
-      <component :is="selected"></component>
+      <transition name="fade" mode="out-in">
+        <component :is="selected"></component>
+      </transition>
     </section>
   </section>
 </template>
 
+<style lang="scss" scoped>
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-leave,
+.fade-enter-to {
+  opacity: 1;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease-in-out;
+}
+</style>
+
 <script>
-import About from './About.vue'
-import Portfolio from './Portfolio.vue'
+import About from './About'
+import Portfolio from './Portfolio'
 export default {
   name: 'Tabs',
   components: {
