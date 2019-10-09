@@ -2,9 +2,9 @@
   <div class="section card">
     <div class="content has-text-centered">
       <h3 class="title has-text-weight-light">
-        There are more
-        <a href="https://github.com/CHanson92" target="_blank">here</a> where
-        you can also see my recent activity.
+        There are more on my
+        <a href="https://github.com/CHanson92" target="_blank">GitHub</a>
+        profile where you can also see my recent activity.
       </h3>
       <span
         v-for="(entry, index) in filters"
@@ -29,10 +29,24 @@
             :project="project"
           >
             <h4 class="title has-text-weight-light">{{ project.title }}</h4>
-            <img
-              class="image"
-              :src="require('../static/images/' + project.image)"
-            />
+            <picture>
+              <source
+                :data-srcset="
+                  require('../static/images/' + project.image + '?webp')
+                "
+                type="image/webp"
+              />
+              <source
+                :data-srcset="require('../static/images/' + project.image)"
+                type="image/png"
+              />
+              <img
+                class="image lazyload"
+                data-sizes="auto"
+                :alt="project.title"
+                :data-src="require('../static/images/' + project.image)"
+              />
+            </picture>
             <p>{{ project.description }}</p>
             <p>{{ project.language }}</p>
             <a
@@ -43,10 +57,22 @@
               >Website</a
             >
             <a :href="project.github" class="button" target="_blank">
-              <img
-                class="image is-32x32"
-                src="../static/images/GitHub-Mark-120px-plus.png"
-              />GitHub Repo
+              <picture>
+                <source
+                  data-srcset="../static/images/GitHub-Mark-120px-plus.png?webp"
+                  type="image/webp"
+                />
+                <source
+                  data-srcset="../static/images/GitHub-Mark-120px-plus.png"
+                  type="image/png"
+                />
+                <img
+                  class="image is-32x32 lazyload"
+                  data-sizes="auto"
+                  data-src="../static/images/GitHub-Mark-120px-plus.png"
+                />
+              </picture>
+              GitHub Repo
             </a>
           </div>
         </transition-group>

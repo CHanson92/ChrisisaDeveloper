@@ -40,7 +40,8 @@ export default {
    */
   plugins: [
     // FontAwesome
-    '~/plugins/fontawesome.js'
+    '~/plugins/fontawesome.js',
+    '~/plugins/vue-lazysizes.client.js'
   ],
 
   /*
@@ -55,21 +56,22 @@ export default {
     '@bazzite/nuxt-optimized-images'
   ],
   optimizedImages: {
-    inlineImageLimit: 1000,
-    imagesName: ({ isDev }) =>
-      isDev ? '[path][name][hash:optimized].[ext]' : 'img/[hash:7].[ext]',
-    responsiveImagesName: ({ isDev }) =>
-      isDev
-        ? '[path][name]--[width][hash:optimized].[ext]'
-        : 'img/[hash:7]-[width].[ext]',
-    handleImages: ['jpeg', 'png'],
+    inlineImageLimit: -1,
+    handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
     optimizeImages: true,
-    optimizeImagesInDev: true,
+    optimizeImagesInDev: false,
     defaultImageLoader: 'img-loader',
     mozjpeg: {
-      quality: 80
+      quality: 85
     },
-    pngquant: true
+    optipng: false,
+    pngquant: {
+      speed: 7,
+      quality: [0.65, 0.8]
+    },
+    webp: {
+      quality: 85
+    }
   },
   /*
    ** Axios module configuration
@@ -92,9 +94,21 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {
+    extend(
+      config,
+      {
+        isDev,
+        isClient,
+        loaders: { vue }
+      }
+    ) {
+      // Run Lazysizes
+      if (isClient) {
+        vue.transformAssetUrls.img = ['data-src', 'src']
+        vue.transformAssetUrls.source = ['data-srcset', 'srcset']
+      }
       // Run ESLint on save
-      if (ctx.isDev && ctx.isClient) {
+      if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
