@@ -26,6 +26,7 @@
       <br />In my spare time I am a technology and comics geek, I have a love
       for sports in particular martial arts, motorsport &amp; gymnastics but
       always excited to try out new sports.
+      <br />
       <a
         class="link button"
         href="mailto:chrisdhanson92@gmail.com"
