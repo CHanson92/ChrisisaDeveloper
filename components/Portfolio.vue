@@ -6,6 +6,9 @@
         <a href="https://github.com/CHanson92" target="_blank">GitHub</a>
         profile where you can also see my recent activity.
       </h3>
+      <p class="is-size-5 has-text-weight-light">
+        Click through the buttons below to see my projects.
+      </p>
       <span
         v-for="(entry, index) in filters"
         :key="index"
@@ -57,21 +60,10 @@
               >Website</a
             >
             <a :href="project.github" class="button" target="_blank">
-              <picture>
-                <source
-                  data-srcset="../static/images/GitHub-Mark-120px-plus.png?webp"
-                  type="image/webp"
-                />
-                <source
-                  data-srcset="../static/images/GitHub-Mark-120px-plus.png"
-                  type="image/png"
-                />
-                <img
-                  class="image is-32x32 lazyload"
-                  data-sizes="auto"
-                  data-src="../static/images/GitHub-Mark-120px-plus.png"
-                />
-              </picture>
+              <img
+                class="image lazyload is-32x32"
+                data-src="../static/images/GitHub-Mark-120px-plus.png"
+              />
               GitHub Repo
             </a>
           </div>
@@ -87,9 +79,8 @@ export default {
   name: 'Portfolio',
   data: function() {
     return {
-      currentFilter: 'All',
+      currentFilter: 0,
       filters: [
-        'All',
         'HTML/CSS/jQuery',
         'PHP/WordPress',
         'React',
@@ -101,11 +92,7 @@ export default {
   },
   computed: {
     filterProjects: function() {
-      if (this.currentFilter === 'All') {
-        return this.projects
-      } else {
-        return this.projects.filter(p => p.language === this.currentFilter)
-      }
+      return this.projects.filter(p => p.language === this.currentFilter)
     }
   }
 }
