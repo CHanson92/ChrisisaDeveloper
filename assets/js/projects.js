@@ -11,9 +11,9 @@ const projects = [
     title: 'Instanews',
     image: 'Instanews.png',
     description: 'An Instagram style news feed using the New York Times API.',
-    language: 'HTML/CSS/jQuery',
-    website: 'https://chanson92.github.io/Project-2-Instanews/',
-    github: 'https://github.com/CHanson92/Project-2-Instanews'
+    language: 'React',
+    website: 'https://chanson92.github.io/Instanews/',
+    github: 'https://github.com/CHanson92/Instanews'
   },
   {
     title: 'Beer API',
