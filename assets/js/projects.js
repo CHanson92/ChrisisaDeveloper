@@ -20,9 +20,9 @@ const projects = [
     image: 'Beer-API.png',
     description:
       'A website where you can see all beers and a random beer using the PunkDog API.',
-    language: 'HTML/CSS/jQuery',
-    website: 'https://chanson92.github.io/Project-3-Beer-API/build/index',
-    github: 'https://github.com/CHanson92/Project-3-Beer-API'
+    language: 'Vue',
+    website: 'https://chanson92.github.io/Beer-API/',
+    github: 'https://github.com/CHanson92/Beer-API'
   },
   {
     title: 'Quotes on Dev',

@@ -1,5 +1,3 @@
-import pkg from './package'
-
 export default {
   mode: 'universal',
 
@@ -7,11 +5,16 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: pkg.name,
+    title: 'Chris Hanson - Junior Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'I am a passionate junior developer keen to building my development skills'
+      }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
