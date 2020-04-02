@@ -14,15 +14,6 @@
       something I'd love to get into, do myself and hand something back to the
       gaming community.
       <br />
-      <br />You can see my
-      <a
-        class="link"
-        href="https://1drv.ms/b/s!Am-S6R_uzcxflVCy7ko7EAqrZK4C"
-        target="_blank"
-        >CV</a
-      >
-      for more details.
-      <br />
       <br />In my spare time I am a technology and comics geek, I have a love
       for sports in particular martial arts, motorsport &amp; gymnastics but
       always excited to try out new sports.
