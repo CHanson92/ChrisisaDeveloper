@@ -8,11 +8,15 @@
     </section>
     <div>
       <article class="container has-text-white">
-        I am a passionate junior developer with a diploma in Web &amp; App
-        Development from RED Academy. I have a 2:1 honours degree in Mathematics
-        from the University of Hertfordshire and a finance background in the
-        medical device industry. I have a thirst for knowledge, I am curious
-        about everything and I love to make processes easier.
+        I'm an inquisitive Software Engineer currently working at Jesey-AI where
+        I hope to improve mental health using my passion for technology. You'll
+        find me researching and keeping up the latest in technology and in my
+        spare time indulging my love of gaming &amp; martial arts. I have a 2:1
+        Honours Degree in Mathematics, a Web &amp; App Development Diploma from
+        RED Academy and currently completing a Computing &amp; IT degree at the
+        Open University. I have a thirst for knowledge, I'm passionate about
+        everything I do and this shows in the quality of work I provide. I find
+        and implement new ways to show results &amp; to initiate new ideas.
       </article>
       <tabs />
     </div>

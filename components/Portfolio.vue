@@ -12,8 +12,8 @@
       <span
         v-for="(entry, index) in filters"
         :key="index"
-        class="filterbutton button"
         :item="entry"
+        class="filterbutton button"
         :class="{ active: entry == currentFilter }"
         @click="currentFilter = entry"
         >{{ entry }}</span
@@ -28,8 +28,8 @@
           <div
             v-for="project in filterProjects"
             :key="project.title"
-            class="column has-text-centered is-one-third-desktop is-half-tablet"
             :project="project"
+            class="column has-text-centered is-one-third-desktop is-half-tablet"
           >
             <h4 class="title has-text-weight-light">{{ project.title }}</h4>
             <picture>
@@ -44,10 +44,10 @@
                 type="image/png"
               />
               <img
-                class="image lazyload"
-                data-sizes="auto"
                 :alt="project.title"
                 :data-src="require('../static/images/' + project.image)"
+                class="image lazyload"
+                data-sizes="auto"
               />
             </picture>
             <p>{{ project.description }}</p>
@@ -77,7 +77,7 @@
 import projects from '../assets/js/projects'
 export default {
   name: 'Portfolio',
-  data: function() {
+  data() {
     return {
       currentFilter: 0,
       filters: [
@@ -91,7 +91,7 @@ export default {
     }
   },
   computed: {
-    filterProjects: function() {
+    filterProjects() {
       return this.projects.filter(p => p.language === this.currentFilter)
     }
   }

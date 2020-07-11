@@ -56,7 +56,7 @@ export default {
     About,
     Portfolio
   },
-  data: function() {
+  data() {
     return {
       tabs: ['About', 'Portfolio'],
       selected: 'Portfolio'
