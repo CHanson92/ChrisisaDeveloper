@@ -64,7 +64,7 @@ const projects = [
     image: 'Chrisisadeveloper.png',
     description: "The website you're currently on, my professional website.",
     language: 'Vue',
-    website: 'https://chrisisadeveloper.co.uk',
+    website: 'https://chris-hanson.netlify.app/',
     github: 'https://github.com/CHanson92/ChrisisaDeveloper'
   },
   {
