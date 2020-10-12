@@ -13,7 +13,7 @@ const projects = [
 		description:
 			'An Instagram style news feed using the New York Times API.',
 		language: 'React',
-		website: 'https://chanson92.github.io/Instanews/',
+		website: null,
 		github: 'https://github.com/CHanson92/Instanews'
 	},
 	{
