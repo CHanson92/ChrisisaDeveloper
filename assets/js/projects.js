@@ -40,7 +40,6 @@ const projects = [
 		description:
 			'A single page application that can add & find martial arts gyms.',
 		language: 'React',
-		website: 'https://fmma.herokuapp.com/',
 		github: 'https://github.com/CHanson92/FMMA-Project-2'
 	},
 	{
